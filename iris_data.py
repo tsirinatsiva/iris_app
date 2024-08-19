@@ -10,12 +10,13 @@ import streamlit as st
 # import os
 # import json 
 
-iris = pd.read_csv('iris.csv')
+# iris = pd.read_csv('iris.csv')
+st.write('Hello World')
 
-iris=pd.DataFrame(iris)
-col = ['sepal_length','sepal_width','petal_length','petal_width','iris_type']
-iris.columns=col
-st.dataframe(iris)
+# iris=pd.DataFrame(iris)
+# col = ['sepal_length','sepal_width','petal_length','petal_width','iris_type']
+# iris.columns=col
+# st.dataframe(iris)
 
 
 # fig = px.scatter_matrix(iris,dimensions=['sepal_length','sepal_width','petal_length','petal_width'],color='iris_type')
