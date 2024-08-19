@@ -4,4 +4,6 @@ numpy
 seaborn
 datetime 
 numpy
+plotly
+matplotlib
 
