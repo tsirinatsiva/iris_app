@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.figure_factory as ff
+# import plotly.express as px
+# import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 from urllib.request import urlopen
 import streamlit as st
