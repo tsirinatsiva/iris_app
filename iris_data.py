@@ -1,14 +1,14 @@
 import pandas as pd
-import numpy as np
-import plotly.express as px
-import plotly.figure_factory as ff
-import matplotlib.pyplot as plt
-from urllib.request import urlopen
+# import numpy as np
+# import plotly.express as px
+# import plotly.figure_factory as ff
+# import matplotlib.pyplot as plt
+# from urllib.request import urlopen
 import streamlit as st
-import seaborn as sns
-import datetime 
-import os
-import json 
+# import seaborn as sns
+# import datetime 
+# import os
+# import json 
 
 iris = pd.read_csv('iris.csv')
 
