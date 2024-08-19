@@ -10,7 +10,7 @@ import datetime
 import os
 import json 
 
-iris = pd.read_csv('SOURCE/iris.csv')
+iris = pd.read_csv('iris.csv')
 
 iris=pd.DataFrame(iris)
 col = ['sepal_length','sepal_width','petal_length','petal_width','iris_type']
