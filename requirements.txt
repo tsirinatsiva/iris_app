@@ -1,4 +1,9 @@
 streamlit
 pandas
 numpy
+seaborn
+datetime 
+os
+json 
+numpy
 
