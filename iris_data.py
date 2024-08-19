@@ -32,8 +32,8 @@ hist_data = [iris_filtered['sepal_length'],iris_filtered['sepal_width'],iris_fil
 group_labels = ['sepal_length','sepal_width','petal_length','petal_width']
 
 st.markdown('## Distribution Plot per features')
-# fig_2 = px.histogram(hist_data, group_labels, bin_size = [.25,.25,.25,0.25])
-# st.plotly_chart(fig_2,theme = None)
+fig_2 = px.histogram(hist_data, group_labels, iris_filtered, bin_size = [.25,.25,.25,0.25])
+st.plotly_chart(fig_2,theme = None)
 
 
 st.markdown('##  Distribution per species')
