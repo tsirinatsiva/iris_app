@@ -1,9 +1,9 @@
 streamlit
+plotly
+matplotlib
 pandas
 numpy
 seaborn
 datetime 
-numpy
-plotly
-matplotlib
+
 
