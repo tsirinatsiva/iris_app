@@ -32,7 +32,7 @@ hist_data = [iris_filtered['sepal_length'],iris_filtered['sepal_width'],iris_fil
 group_labels = ['sepal_length','sepal_width','petal_length','petal_width']
 
 st.markdown('## Distribution Plot per features')
-fig_2 = ff.create_displot(hist_data, iris_filtered, group_labels,  bin_size = [.25,.25,.25,0.25])
+fig_2 = ff.create_distplot(hist_data, iris_filtered, group_labels,  bin_size = [.25,.25,.25,0.25])
 st.plotly_chart(fig_2,theme = None)
 
 
